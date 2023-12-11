@@ -5,7 +5,7 @@ type Props = {
     day: number
 }
 
-export const DayListItem = ({day}: Props) => {
+export default function DayListItem ({day}: Props){
 
     return (
       <Link href={`/day${day.toString().padStart(2, '0')}`} asChild>

@@ -1,8 +1,9 @@
+
+import DayListItem from '@components/core/DayLIstItem';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { FlatList, StyleSheet, View } from 'react-native';
 
-import { DayListItem } from '../components/core/DayLIstItem';
 
 SplashScreen.preventAutoHideAsync();
 
